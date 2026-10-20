@@ -83,10 +83,10 @@ accessibility:
 output:
   mode: "plate"
   format: "png"
-  plate_path: "outputs/source/infographic-plate.png"
-  overlay_path: "outputs/source/infographic-overlay.svg"
-  final_path: "outputs/infographic.png"
-  prompt_record: "outputs/prompts/infographic.md"
+  plate_path: "output/source/infographic-plate.png"
+  overlay_path: "output/source/infographic-overlay.svg"
+  final_path: "output/infographic.png"
+  prompt_record: "output/prompts/infographic.md"
   background_text_policy: "none"
   overlay_blocks:
     - {id: "title", section_ref: "headline", zone: "header"}

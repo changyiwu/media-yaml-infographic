@@ -101,8 +101,8 @@ accessibility:
 output:
   mode: "baked"
   format: "png"
-  final_path: "outputs/yaml-image-deck-five-step-workflow.png"
-  prompt_record: "outputs/prompts/yaml-image-deck-five-step-workflow.md"
+  final_path: "output/yaml-image-deck-five-step-workflow.png"
+  prompt_record: "output/prompts/yaml-image-deck-five-step-workflow.md"
 
 validation:
   profile: "strict"

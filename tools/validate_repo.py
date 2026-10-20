@@ -70,7 +70,7 @@ forbidden = (
     (re.compile(r"(?i)\bpassword\s*[:=]\s*[\"']?\S"), "password"),
 )
 text_suffixes = {".md", ".py", ".ps1", ".yaml", ".yml", ".txt"}
-skip_dirs = {".git", "__pycache__", ".venv", "venv", "outputs", "output", "tmp"}
+skip_dirs = {".git", "__pycache__", ".venv", "venv", "output", "tmp"}
 for path in root.rglob("*"):
     if not path.is_file() or path.suffix.lower() not in text_suffixes:
         continue

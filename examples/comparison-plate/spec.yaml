@@ -120,10 +120,10 @@ accessibility:
 output:
   mode: "plate"
   format: "png"
-  plate_path: "outputs/source/comparison-plate.png"
-  overlay_path: "outputs/source/comparison-overlay.svg"
-  final_path: "outputs/comparison-baked-vs-plate.png"
-  prompt_record: "outputs/prompts/comparison-baked-vs-plate.md"
+  plate_path: "output/source/comparison-plate.png"
+  overlay_path: "output/source/comparison-overlay.svg"
+  final_path: "output/comparison-baked-vs-plate.png"
+  prompt_record: "output/prompts/comparison-baked-vs-plate.md"
   background_text_policy: "none"
   overlay_blocks:
     - {id: "headline_text", section_ref: "headline", zone: "header"}

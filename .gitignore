@@ -8,7 +8,6 @@ venv/
 Thumbs.db
 tmp/
 output/
-outputs/
 
 # Google 雲端硬碟與 Office 暫存檔
 desktop.ini
