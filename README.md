@@ -32,7 +32,7 @@
 
 ```powershell
 python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py') `
-  --repo changyiwu/yaml-infographic `
+  --repo changyiwu/media-yaml-infographic `
   --path skills/yaml-infographic
 ```
 
@@ -41,8 +41,8 @@ python (Join-Path $HOME '.codex/skills/.system/skill-installer/scripts/install-s
 先下載 Repo：
 
 ```powershell
-git clone https://github.com/changyiwu/yaml-infographic.git
-Set-Location ./yaml-infographic
+git clone https://github.com/changyiwu/media-yaml-infographic.git
+Set-Location ./media-yaml-infographic
 ```
 
 再選擇要安裝的 Agent：
@@ -141,7 +141,7 @@ python ./tools/validate_repo.py
 |---|---|
 | 原作者 | 三師爸（[mathruffian-dot](https://github.com/mathruffian-dot)） |
 | 原始著作 | [mathruffian-dot/yaml-infographic](https://github.com/mathruffian-dot/yaml-infographic)，MIT |
-| 本 Repo | `changyiwu/yaml-infographic`，由 changyiwu 修改與維護 |
+| 本 Repo | `changyiwu/media-yaml-infographic`，由 changyiwu 修改與維護 |
 
 YAML 設計合約、資訊架構路由、`baked`／`plate` 雙模式與黃金樣張機制等核心設計，皆由原作者提出。
 

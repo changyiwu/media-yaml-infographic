@@ -1,4 +1,4 @@
-# yaml-infographic（專案藍圖）
+# media-yaml-infographic（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 > Claude Code 預設只在沒有 `CLAUDE.md` 時才讀 `AGENTS.md`，故由 `CLAUDE.md` 的 `@AGENTS.md` import 本檔（`CLAUDE.md` 只有這一行）；Claude 專屬規範寫在本檔〈Claude Code 專屬〉一節。
@@ -84,8 +84,8 @@ tools/validate_repo.py                 Repo 完整性驗證
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md`（不進 git，只走雲端硬碟）＋`CLAUDE.md`（橋接） | 每個 session |
-| L2 | GitHub | [changyiwu/yaml-infographic](https://github.com/changyiwu/yaml-infographic)（公開） | 指定時 |
-| L3 | Obsidian | `yaml-infographic/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | [changyiwu/media-yaml-infographic](https://github.com/changyiwu/media-yaml-infographic)（公開） | 指定時 |
+| L3 | Obsidian | `media-yaml-infographic/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 
